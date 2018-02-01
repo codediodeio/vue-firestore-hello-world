@@ -10,8 +10,8 @@ import 'firebase/firestore'
 Vue.use(VueFire)
 
 firebase.initializeApp({
-  projectId: 'YOUR_PROJECT_ID',
-  databaseURL: 'YOUR_DB_URL'
+  projectId: 'firestarter-96e46',
+  databaseURL: 'https://firestarter-96e46.firebaseio.com'
 })
 
 export const db = firebase.firestore()
